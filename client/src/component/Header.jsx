@@ -7,7 +7,7 @@ const Header = () => {
     <header className="flex fixed w-full top-0 items-center justify-between z-50  py-4 px-8 bg-gray-800 text-white">
       <div className="flex items-center">
         <img src="/bag.png" className='w-[50px] h-[50px]' alt="" />
-        <Link to="/" className="text-xl font-bold">Click Cart</Link>
+        <Link to="/" className="text-xl cursor-pointer font-bold">Click Cart</Link>
         <div className="ml-4">
           <input
             type="text"
