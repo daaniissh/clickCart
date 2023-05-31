@@ -12,7 +12,7 @@ const Header = () => {
           <input
             type="text"
             placeholder="Search..."
-            className="px-4 py-2 sm:focus:pr-72 ease duration-200 rounded-lg bg-gray-700 text-white outline-none "
+            className="px-4 py-2 sm:focus:pr-72 ease duration-200 rounded-lg bg-gray-700 text-white hidden  sm:block outline-none "
           />
         </div>
       </div>
