@@ -35,9 +35,6 @@ Click Cart offers a feature-rich and visually appealing e-commerce website, show
 
 
 
-## Click Cart
-
-Click Cart is an e-commerce website that allows users to browse and purchase products online. It is built using modern web development technologies, including React.js, Tailwind CSS, AOS, React Slick, Axios, Node.js, Express.js, and Cors.
 
 ### Features
 
