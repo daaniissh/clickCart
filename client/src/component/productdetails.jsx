@@ -42,7 +42,7 @@ const ProductDetailsPage = () => {
           <div className="max-w-3xl mx-auto bg-white rounded-lg overflow-hidden shadow-lg">
             <div className="grid grid-cols-1 md:grid-cols-2">
               <div className="p-4 relative mb-3">
-                <h1 className='absolute z-40 left-2 top-2 bg-yellow-400 font-semibold p-[2px] rounded-md' >{product.discountPercentage}%off</h1>
+                <h1 className='absolute z-40 left-2 top-2 bg-yellow-400 font-semibold p-[2px] rounded-md' >{product.discountPercentage}%</h1>
                 <Slider {...settings} >
                   {imageArray?.map((images, index) => (
                     <div key={index} > <img
