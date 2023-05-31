@@ -16,7 +16,7 @@ const ProductDetailsPage = () => {
   const [product, setProduct] = useState({})
 
   const getSingleData = async () => {
-    const response = await axios.get(`http://localhost:3001/products/${id}`)
+    const response = await axios.get(`https://click-cart-server.vercel.app/products/${id}`)
     console.log(response.data[0].images.map(imag => imag));
     setProduct(response.data[0])
   }

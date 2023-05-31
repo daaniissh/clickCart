@@ -41,7 +41,7 @@ export function ProductList() {
 
   const [products, setProduct] = useState([])
   const getAllProducts = async () => {
-    const response = await axios.get("http://localhost:3001/products/")
+    const response = await axios.get("https://click-cart-server.vercel.app/products")
     setProduct(response.data)
   }
   useEffect(() => {
