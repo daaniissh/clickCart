@@ -12,7 +12,7 @@ const ProductItem = ({ product }) => {
             <img
               src={product.thumbnail}
               alt="Product"
-              className="w-[300px] group-hover:scale-110 ease duration-150 h-[300px]"
+              className="w-[300px] object-contain group-hover:scale-110 ease duration-150 h-[300px]"
             />
           </div>
           <div className="px-6 py-4">
