@@ -37,6 +37,11 @@ const ProductDetailsPage = () => {
   return (
 
     <div ref={scrollRef} data-aos="zoom-in-up">
+     <div className="mt-4 text-center">
+            <Link to="/" className="text-blue-500 flex items-center">
+              <HiArrowLeft className="mr-1" /> Go Back
+            </Link>
+          </div>
       <div className="bg-gray-200 mt-20  ">
         <div className="container mx-auto py-8">
           <div className="max-w-3xl mx-auto bg-white rounded-lg overflow-hidden shadow-lg">
@@ -79,11 +84,7 @@ const ProductDetailsPage = () => {
               </div>
             </div>
           </div>
-          <div className="mt-4 text-center">
-            <Link to="/" className="text-blue-500 flex items-center">
-              <HiArrowLeft className="mr-1" /> Go Back
-            </Link>
-          </div>
+         
         </div>
       </div>
     </div>
