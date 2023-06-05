@@ -39,7 +39,7 @@ const ProductDetailsPage = () => {
     <div ref={scrollRef} data-aos="zoom-in-up">
 
       <div className="bg-gray-200 mt-20  ">
-             <div className="mt-4 p-5 text-center">
+             <div className="m-10 text-center">
             <Link to="/" className="text-blue-500 flex items-center">
               <HiArrowLeft className="mr-1" /> Go Back
             </Link>
